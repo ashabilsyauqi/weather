@@ -3,7 +3,7 @@ import React from 'react';
 export default function Weather({ weatherData }) {
   if (!weatherData) {
     
-    return <p>tidak ada hasil</p>;
+    return <p>Kota Tidak Ditemukan</p>;
   }
 
   const iconBaseUrl = "https://openweathermap.org/img/wn/";
