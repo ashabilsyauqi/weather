@@ -1,11 +1,11 @@
 .card{
-    background-color:#292929;
+    background-color: #272727;
     width: 300px;
-
     border-radius: 10px;
-    box-shadow: 10px 10px 15px -15px  #292929;
+    box-shadow: 0px 0px 37px -7px #05839c;
     max-height: 600px;
     padding: 10px 10px 10px 10px;
+
 }
 
 .window-bar{

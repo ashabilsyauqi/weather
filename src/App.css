@@ -6,9 +6,10 @@
   /* height: 100vh; */
 }
 .container{
-  width: 60%;
+  width: 100%;
   margin: auto;
   height: 100vh;
+  background-color: #292929;
 }
 .flex-center{
   display: flex;

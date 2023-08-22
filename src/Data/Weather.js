@@ -23,6 +23,8 @@ export default function Weather({ weatherData }) {
         <h1 className='weather-status'>{weatherData.weather[0].description}</h1>
         <p className='weather-location'>Location: {weatherData.name}, {weatherData.sys.country}</p>
         <p className='weather-temp'>Temp: {tempCelsius} °C</p>
+        <p className='weather-temp'>Wind: {weatherData.wind.speed} km/h</p>
+        {/* <p className='weather-temp'>deg: {weatherData.wind.deg}°</p> */}
       </div>
     );
   } else {
