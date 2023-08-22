@@ -11,6 +11,7 @@ const WeatherApp = () => {
 
   const [weatherData, setWeatherData] = useState(null);
   const [city, setCity] = useState("Jakarta");
+  // tester
 
   useEffect(() => {
     axios
