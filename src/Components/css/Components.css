@@ -1,0 +1,80 @@
+.card{
+    background-color:#292929;
+    width: 300px;
+
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px -15px  #292929;
+    max-height: 600px;
+    padding: 10px 10px 10px 10px;
+}
+
+.window-bar{
+    padding: 1px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 5px;
+    flex-direction: row;
+    /* background-color: grey; */
+}
+
+.w-bar{
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+    background-color: black;
+    box-shadow: inset 0 0 5px #737373;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.blue{
+    background-color: blue;
+}
+.card-content{
+    /* background-color: grey; */
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+/* weather data */
+.weather-img{
+    width: 100px;
+}
+.images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.weather-status{
+    margin: 0;
+    /* background-color: grey; */
+    color: white;
+}
+.weather-location{
+    /* background-color: grey; */
+    color: white;
+}
+.weather-temp{
+    /* background-color: grey; */
+    color: white;
+}
+.weather-rainy{
+    /* background-color: grey; */
+    color: white;
+}
+
+.text-left{
+    text-align: left;
+    /* background-color: red; */
+}
+
