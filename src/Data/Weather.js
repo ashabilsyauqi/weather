@@ -10,13 +10,20 @@ export default function Weather({ weatherData }) {
   
   // Pastikan ada data weather sebelum mengakses properti weather[0]
   if (weatherData.weather && weatherData.weather.length > 0) {
+
+    // variable yang berValue dari request API
     const iconCode = weatherData.weather[0].icon;
+
+    // validasi icon pada API
     const iconUrl = `${iconBaseUrl}${iconCode}@2x.png`;
 
+    // variable mengkonversi data dari API berupa Kervin ke Cessius
     const tempCelsius = (weatherData.main.temp - 273.15).toFixed(2);
 
     return (
       <div className='text-left'>
+        {/* disini semua data akan di render pada tag tag HTML untuk ditampilkan pada CLient */}
+
         <div className='images'>
           <img src={iconUrl} alt='weather-img' className='weather-img' />
         </div>
@@ -28,6 +35,7 @@ export default function Weather({ weatherData }) {
       </div>
     );
   } else {
+
     return <p>No weather data available.</p>;
   }
 }

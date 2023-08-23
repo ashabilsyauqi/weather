@@ -3,6 +3,9 @@ import "./css/Components.css";
 import Weather from "../Data/Weather";
 
 export default function Card({ weatherData }) {
+  // pada komponent tidak banyak yang dilakukan 
+  // hanya melakukan estafet data 
+  // menerima data melalui param props lalu dikirim ke WeatherData lagi
   return (
     <div className="card">
       <div className="window-bar">
